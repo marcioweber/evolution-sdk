@@ -157,7 +157,8 @@ class Message
             'delay' => 1200,
         ];
 
-        if (!empty(self::$caption)) {
+        if (!empty(self::$caption)) 
+        {
             $data['caption'] = self::$caption;
         }
 
@@ -220,4 +221,5 @@ class Message
         return self::sendRequest($data, '/message/sendText/');
     }
 }
+
 
