@@ -158,7 +158,7 @@ class Message
         ];
 
         if (!empty(self::$caption)) {
-            $data['mediaMessage']['caption'] = self::$caption;
+            $data['caption'] = self::$caption;
         }
 
         return self::sendRequest($data, self::API_ENDPOINT_TEMPLATE);
@@ -220,3 +220,4 @@ class Message
         return self::sendRequest($data, '/message/sendText/');
     }
 }
+
