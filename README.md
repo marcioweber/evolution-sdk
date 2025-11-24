@@ -23,7 +23,7 @@
 ## Instalação
 
 ```bash
-composer require luannsr12/apiwpp
+composer require marcioweber/apiwpp
 ```
 
 ---
@@ -156,3 +156,4 @@ MIT License © Luan Alves
 ## Contato
 
 Para dúvidas ou suporte: luanalvesnsr@gmail.com
+
